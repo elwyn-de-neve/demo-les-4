@@ -16,13 +16,14 @@ p {
     margin: 0 auto;
 }
 
+/* https://cssgradient.io */
 .parent {
     min-width: 100vw;
     background: linear-gradient(
             90deg,
             #2A7B9B 0%,
             #2A449B 100%
-    );} /* https://cssgradient.io */
+    );}
 
 .triangle {
     border-right: 100vw solid transparent; /* breedte van parent */
